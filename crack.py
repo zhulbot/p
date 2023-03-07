@@ -25,18 +25,6 @@ proxsi=open('socksku.txt','r').read().splitlines()
 
 ###----------[ USER AGENT 1 ]----------###
 for agenku in range(10000):
-	a='Mozilla/5.0 (Linux; U; Android'
-	b=random.choice(['7.0','8.1.0','9','10','11','12'])
-	c='Mi A3 Build/QKQ1.190910.002; wv)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 OPR/52.2.2254.54723'
-	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	usragent.append(uakuh)
-	
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['6.0.1','7.1.1','8.1.0','9','10','11','12'])
 	c='Redmi Note'
@@ -50,7 +38,19 @@ for agenku in range(10000):
 	i='Mobile Safari/537.36 OPT/1.7.21'
 	uakuh=f'{a} {b}; {c} {j} {k} {d}{e}.{f}.{g}.{h} {i}'
 	usragent.append(uakuh)
-
+	
+	a='Mozilla/5.0 (Linux; U; Android'
+	b=random.choice(['7.0','8.1.0','9','10','11','12'])
+	c='Mi A3 Build/QKQ1.190910.002; wv)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36 OPR/52.2.2254.54723'
+	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+	usragent.append(uakuh)
+	
 ###----------[ USER AGENT 2 ]----------###
 for agenkuw in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
