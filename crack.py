@@ -666,6 +666,4 @@ def memulai():
 if __name__=='__main__':
 	try:os.system('git pull')
 	except:pass
-	try:os.system('pkg install play-audio')
-	except:pass
 	memulai()
