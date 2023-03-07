@@ -482,6 +482,7 @@ def passwrd():
 						pwv.append(frs+'123456')
 						pwv.append('indonesia')
 						pwv.append('bismillah')
+
 				if '><basari><' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
