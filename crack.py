@@ -302,7 +302,7 @@ def passwrdh():
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append('Sayang'))
+						pwv.append('Sayang')
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
