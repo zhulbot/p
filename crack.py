@@ -307,8 +307,9 @@ def passwrdh():
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
-                        			pwv.append('indonesia')
-                        			pwv.append('bismillah')
+						pwv.append('indonesia')
+						pwv.append('bismillah')
+
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
