@@ -306,7 +306,7 @@ def passwrdh():
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
 						pwv.append('indonesia')
-						pwv.append('bismillah')
+						pwv.append(frs+'01')
 
 				else:
 					if len(frs)<3:
@@ -319,7 +319,7 @@ def passwrdh():
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
 						pwv.append('indonesia')
-						pwv.append('bismillah')
+						pwv.append(frs+'01')
 				if '><basari><' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
