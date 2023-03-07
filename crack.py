@@ -42,7 +42,7 @@ for agenku in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['6.0.1','7.1.1','8.1.0','9','10','11','12'])
 	c='Redmi Note'
-	j=random.choice(['5','5A','6','6A','7','8','9';'10'])
+	j=random.choice(['5','5A','6','6A','7','8','9','10'])
 	k='Build/MMB29K)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
 	e=random.randrange(83,103)
