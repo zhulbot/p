@@ -165,15 +165,15 @@ def menu(id):
 		waktu(1)
 		login_men()
 	os.system('clear')
-	os.system('xdg-open https://wa.me/6285336393488')
+	#os.system('xdg-open https://wa.me/6285336393488')
 	waktu(1)
 	banner()
 	print(f'{xxx}─────────────────────────────')
-	print(f'{xxx}└── crack publik atau file')
+	print(f'{xxx}└── 1.crack publik atau 2.file')
 	helpbas = input(f'{xxx}└── : ')
-	if helpbas in ['publik','Publik','public']:
+	if helpbas in ['publik','Publik','public','1','p']:
 		nge_krek()
-	elif helpbas in ['file','File','files']:
+	elif helpbas in ['file','File','files','f','2']:
 		file_dump()
 	else:
 		baz_anim(f'{puti}└──{mer} masukkan dengan benar')
