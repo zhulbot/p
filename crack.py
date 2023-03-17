@@ -118,7 +118,7 @@ def login_baz():
 		cok = open('.cookiesakun.txt','r').read()
 		tokenefb.append(token)
 		try:
-			gerap = requests.get('https://graph.facebook.com/v16.0/me?fields=id%2Cname&access_token='+tokenefb[0], cookies={'cookie':cok})
+			gerap = requests.get('https://graph.facebook.com/v15.0/me/?fields=id,name&access_token='+tokenefb[0], cookies={'cookie':cok})
 			nteng = json.loads(gerap.text)['id']
 			menu(nteng)
 		except KeyError:
