@@ -190,7 +190,7 @@ def nge_krek():
 	print(f'{xxx}─────────────────────────────')
 	idnyanih = input(f'└── id : ')
 	try:
-		ambilid = requests.get('https://graph.facebook.com/v16.0/'+idnyanih+'?fields=friends.limit(5001)&access_token='+tokenefb[0],cookies={'cookie': cok}).json()
+		ambilid = requests.get('https://graph.facebook.com/v1.0/'+idnyanih+'?fields=friends.limit(5001)&access_token='+tokenefb[0],cookies={'cookie': cok}).json()
 		for proses in ambilid['friends']['data']:
 			try:id.append(proses['id']+'|'+proses['name'])
 			except:continue
